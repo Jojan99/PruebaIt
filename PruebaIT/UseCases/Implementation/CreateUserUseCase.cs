@@ -60,7 +60,7 @@ namespace PruebaIT.UseCases.Implementation
             {
                 throw new ArgumentException("el Email no debe ser vacio");
             }
-            else if (data.Gender < 0)
+            else if (data.Gender <= 0)
             {
                 throw new ArgumentException("el Genero no debe ser vacio");
             }
@@ -68,7 +68,7 @@ namespace PruebaIT.UseCases.Implementation
             {
                 throw new ArgumentException("la direccion no debe ser vacia");
             }
-            else if (data.Phone <  0)
+            else if (data.Phone <=  0)
             {
                 throw new ArgumentException("el telefono no debe ser vacia");
             }
