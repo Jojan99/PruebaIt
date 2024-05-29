@@ -1,0 +1,1 @@
+﻿INSERT INTO Pacientes ([Name],[Date],[Email],[Gender],[Address],[Phone],[DateA]) VALUES (@Name,@Date,@Email,@Gender,@Address,@Phone,@DateA);

@@ -1,0 +1,1 @@
+﻿Update [Test] SET Remove = 1 WHERE [Id] = @Id;
